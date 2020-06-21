@@ -4,12 +4,12 @@ import React from 'react';
 const NavBar = props => {
   return (
     <nav className="navbar navbar-light bg-light">
-      <a className="navbar-brand">
+      <nav className="navbar-brand" >
         Navbar{" "}
         <span className="badge badge-pill badge-secondary">
           {props.totalcounters}
         </span>
-      </a>
+      </nav>
     </nav>
   );
 };
